@@ -1,0 +1,11 @@
+:root {
+  /* width */
+  --sm: 5rem;
+  --md: 10rem;
+  --lg: 15rem;
+  --xl: 30rem;
+  --xxl: 50rem;
+
+  /* height */
+  --h-sm: 3rem;
+}

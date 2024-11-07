@@ -1,0 +1,149 @@
+.max-w-md {
+  max-width: 768px;
+}
+
+.p-3 {
+  padding: 0.3rem;
+}
+
+.w-5 {
+  width: 5rem;
+}
+
+.w-13 {
+  width: 13rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-5 {
+  height: 5rem;
+}
+
+.w-14 {
+  width: 14rem;
+}
+
+.height-14 {
+  height: 14rem;
+}
+
+.w-23 {
+  width: 23rem;
+}
+
+.w-23 {
+  width: 23rem;
+}
+
+.mr-10 {
+  margin-right: 10rem;
+}
+
+.ml-5 {
+  margin-left: 5rem;
+}
+
+.ml-10 {
+  margin-left: 10rem;
+}
+
+.span-12 {
+  grid-column: span 12;
+}
+
+.border-black {
+  border: 1px solid var(--black);
+}
+
+.hidden-lg {
+  @media screen and (max-width: 1268px) {
+    display: none;
+  }
+}
+
+.hidden-xs {
+  @media screen and (min-width: 1268px) {
+    display: none;
+  }
+}
+
+.text-md {
+  font-size: var(--text-md);
+}
+
+.font-bold {
+  font-weight: var(--font-bold);
+}
+
+.font-normal {
+  font-weight: var(--font-normal);
+}
+
+.text-lg {
+  font-size: var(--text-lg);
+}
+
+.text-xl {
+  font-size: var(--text-xl);
+}
+
+.text-purple {
+  color: var(--purple);
+}
+
+.py-4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.left-3 {
+  right: 3rem;
+}
+
+.right-2 {
+  right: 2rem;
+}
+
+.max-w-sm {
+  max-width: 576px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 0 0 100%;
+}
+
+.top-27 {
+  top: 27px;
+}
+
+.top-30 {
+  top: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-wrap-balance {
+  text-wrap: balance;
+}
+
+.py-3 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.gap-3 {
+  gap: 3rem;
+}

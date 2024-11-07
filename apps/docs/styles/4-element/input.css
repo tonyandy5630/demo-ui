@@ -1,0 +1,22 @@
+button {
+  border-radius: var(--rounded-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  font-size: var(--text-md);
+  background-color: transparent;
+  font-weight: var(--font-bold);
+  padding: var(--p-sm) var(--p-md);
+}
+
+input {
+  padding: var(--p-sm);
+  position: relative;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: var(--text-md);
+  background-color: transparent;
+}

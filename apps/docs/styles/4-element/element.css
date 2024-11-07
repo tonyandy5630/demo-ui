@@ -1,0 +1,10 @@
+@import url("./typography.css");
+@import url("./input.css");
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}

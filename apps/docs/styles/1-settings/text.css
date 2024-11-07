@@ -1,0 +1,9 @@
+@import url("./satoshi.css");
+
+:root {
+  --font-family-base: "Satoshi", sans-serif;
+  --text-sm: 0.5rem;
+  --text-md: 1rem;
+  --text-lg: 1.5rem;
+  --text-xl: 2rem;
+}
