@@ -1,6 +1,34 @@
-@import url("./1-settings/settings.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .modal__overlay {
+    @apply absolute inset-0 bg-black/50 z-50 flex justify-center items-center;
+  }
+
+  .modal__content {
+    @apply text-gray-400 text-base text-wrap text-left w-full;
+  }
+
+  .modal__title {
+    @apply text-2xl font-bold w-full;
+  }
+
+  .modal {
+    @apply flex flex-col justify-center items-center w-60 h-fit bg-slate-800 rounded-lg p-4 text-white shadow-lg;
+  }
+}
+
+html,
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  height: 100%;
+}
+/* @import url("./1-settings/settings.css");
 @import url("./3-generic/generic.css");
 @import url("./4-element/element.css");
 @import url("./5-objects/object.css");
 @import url("./6-components/component.css");
-@import url("./7-utitlities/utilities.css");
+@import url("./7-utitlities/utilities.css"); */

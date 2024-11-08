@@ -1,5 +1,5 @@
-import "@/styles/main.css";
+import ModalTitle from "./ModalTitle";
+import Modal from "./Modal";
+import ModalContent from "./ModalContent";
 
-export default function Modal() {
-  return <h1 className='modal'>Modal</h1>;
-}
+export { ModalTitle, Modal, ModalContent };
