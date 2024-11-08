@@ -5,7 +5,8 @@
     "types": ["@testing-library/jest-dom"],
     "paths": {
       "@/*": ["./*"],
-      "@components/*": ["./src/*"]
+      "@components/*": ["./src/*"],
+      "@styles/*": ["../ui/styles/*"]
     }
   },
   "include": ["src"],

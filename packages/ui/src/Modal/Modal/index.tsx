@@ -1,5 +1,5 @@
 "use client";
-import "@/styles/main.css";
+import "../../../styles/main.css";
 import React from "react";
 
 /**
@@ -9,7 +9,7 @@ import React from "react";
  */
 interface ModalProps
   extends React.PropsWithChildren,
-    React.HTMLAttributes<HTMLDivElement> {
+    React.HTMLAttributes<HTMLDialogElement> {
   open: boolean;
   onClose?: () => void;
 }
@@ -18,7 +18,7 @@ export default function Modal({
   children,
   open,
   onClose,
-  className,
+  className = "",
   ...props
 }: ModalProps) {
   const handleOverlayClick = () => {
@@ -28,13 +28,14 @@ export default function Modal({
     <>
       {open && (
         <div className='modal__overlay' onClick={handleOverlayClick}>
-          <div
+          <dialog
+            open={open}
             className={`modal ${className}`}
             onClick={(e) => e.stopPropagation()}
             {...props}
           >
             {children}
-          </div>
+          </dialog>
         </div>
       )}
     </>
