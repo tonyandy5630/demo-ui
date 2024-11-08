@@ -1,3 +1,4 @@
+@import url("./../1-settings/text.css");
 /* Typography */
 h1,
 h2,
@@ -6,18 +7,19 @@ h4,
 h5,
 h6 {
   line-height: var(--line-height-md);
-  padding: var(--p-sm);
-  text-align: center;
-  text-wrap: balance;
+  letter-spacing: 0.05rem;
+}
+
+h1 {
+  font-size: var(--text-xl);
 }
 
 h2 {
-  font-size: var(--text-xl);
-  font-weight: 400;
+  font-size: var(--text-lg);
 }
 
 h3 {
-  font-size: var(--text-lg);
+  font-size: var(--text-md);
 }
 
 h4 {
