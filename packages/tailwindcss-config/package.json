@@ -1,0 +1,13 @@
+{
+  "name": "@repo/tailwindcss-config",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    "./tailwindConfig": "./tailwind.config.ts",
+    "./postcssConfig": "./postcss.config.js"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "tailwindcss": "^3.4.2"
+  }
+}
